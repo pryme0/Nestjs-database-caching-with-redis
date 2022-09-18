@@ -1,0 +1,6 @@
+import { CreateUserDto } from './create-user.dto';
+
+export class UpdateUserDto {
+  id: string;
+  data: Partial<CreateUserDto>;
+}
